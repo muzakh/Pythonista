@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 12 17:54:20 2020
 
-@author: Hp
+@author: Zohaib
 Usage of generators to free up memory. Print perfect squares of given range of numbers
 """
 
