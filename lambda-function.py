@@ -34,6 +34,9 @@ Let's take an example:
 
 Consider a function multiply():
 
+
+SYNTAX:  (lambda arg1,arg2:<expression>)(arg1, arg2)
+
 '''
 
 
