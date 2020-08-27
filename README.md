@@ -1,2 +1,2 @@
 # Pythonista
-My Python practice codes
+Learning and practicing python
