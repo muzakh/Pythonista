@@ -27,7 +27,7 @@ for parent_dir_char, sub_dir_list, files_list in os.walk(path):
                 #os.system("sshpass -p password scp -o StrictHostKeyChecking=no local_file_path username@hostname:remote_path")
                 ssh = paramiko.SSHClient()
                 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy)
-                ssh.connect(hostname = '192.168.220.2', username = 'root' , password = 'root', port = '22' )
+                ssh.connect(hostname = '192.168.220.2', username = 'root' , password = '****', port = '22' )
                 #ssh.connect(hostname = '192.168.220.2', username = 'root' , key_filename = os.path.join(os.getcwd(), "key-prv-2.ppk"), port = '22' )
                 
                 sftp = ssh.open_sftp()
