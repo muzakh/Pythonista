@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Grab *.txt files recursiely from present dir and its sub-dirs and copy it on a remote linux machine 
+Grab *.txt files recursively from present dir and its sub-dirs and copy it on a remote linux machine 
 
 I will use following:
     1. Error Handling
