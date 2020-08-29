@@ -73,3 +73,65 @@ print(alist)
 '''
 
 
+'''
+************************************
+Optimized Code showing all the iterations
+************************************
+'''
+
+def Bubble_sort(alist):
+    
+    count = 0
+    for i in range(len(alist) -1, 0, -1):
+        
+        count = count + 1 
+        print("\nInteration # {}:" . format(count))
+        
+        for j in range(0, i):
+            
+            if alist[j] > alist[j + 1]:
+                
+                temp = alist[j]
+                alist[j] = alist[j + 1]
+                alist[j + 1] = temp
+            
+            print("Bubble Sorting: {}" . format(alist))
+
+
+
+alist = [5, 3, 8, 6, 7, 2]
+
+Bubble_sort(alist)
+
+print("\nFinal Sorted List is {0}" . format(alist))
+
+
+'''
+Interation # 1:
+Bubble Sorting: [3, 5, 8, 6, 7, 2]
+Bubble Sorting: [3, 5, 8, 6, 7, 2]
+Bubble Sorting: [3, 5, 6, 8, 7, 2]
+Bubble Sorting: [3, 5, 6, 7, 8, 2]
+Bubble Sorting: [3, 5, 6, 7, 2, 8]
+
+Interation # 2:
+Bubble Sorting: [3, 5, 6, 7, 2, 8]
+Bubble Sorting: [3, 5, 6, 7, 2, 8]
+Bubble Sorting: [3, 5, 6, 7, 2, 8]
+Bubble Sorting: [3, 5, 6, 2, 7, 8]
+
+Interation # 3:
+Bubble Sorting: [3, 5, 6, 2, 7, 8]
+Bubble Sorting: [3, 5, 6, 2, 7, 8]
+Bubble Sorting: [3, 5, 2, 6, 7, 8]
+
+Interation # 4:
+Bubble Sorting: [3, 5, 2, 6, 7, 8]
+Bubble Sorting: [3, 2, 5, 6, 7, 8]
+
+Interation # 5:
+Bubble Sorting: [2, 3, 5, 6, 7, 8]
+
+Final Sorted List is [2, 3, 5, 6, 7, 8]
+
+'''
