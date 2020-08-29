@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=Vca808JTbI8
 
 def bubble_sort(alist):
     
-    for trav in range(len(alist) -1, 0, -1):  # You can decide any direction to enumerate. Here we are moving from left to right in the list.
+    for trav in range(len(alist) -1, 0, -1):  # You can decide any direction to enumerate. Here we are moving from left to right in the list. So the outermost loop will be enumerated from right to left
         for j in range(trav):
             
             if alist[j] > alist[j + 1]:
