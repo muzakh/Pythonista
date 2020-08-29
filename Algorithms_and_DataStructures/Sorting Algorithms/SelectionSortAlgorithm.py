@@ -35,14 +35,13 @@ print("\n Final Sorted List: {}" . format(alist))
 '''
 Result
 ======
-Selection Sort Iteration : [2, 3, 8, 6, 7, 5]
-Selection Sort Iteration : [2, 3, 8, 6, 7, 5]
-Selection Sort Iteration : [2, 3, 5, 6, 7, 8]
-Selection Sort Iteration : [2, 3, 5, 6, 7, 8]
-Selection Sort Iteration : [2, 3, 5, 6, 7, 8]
-Selection Sort Iteration : [2, 3, 5, 6, 7, 8]
+Selection Sort Iteration: [2, 3, 8, 6, 7, 5]
+Selection Sort Iteration: [2, 3, 8, 6, 7, 5]
+Selection Sort Iteration: [2, 3, 5, 6, 7, 8]
+Selection Sort Iteration: [2, 3, 5, 6, 7, 8]
+Selection Sort Iteration: [2, 3, 5, 6, 7, 8]
 
- Final Sorted List: [2, 3, 5, 6, 7, 8]
+ Final Soted List [2, 3, 5, 6, 7, 8]:
 
 '''
 
