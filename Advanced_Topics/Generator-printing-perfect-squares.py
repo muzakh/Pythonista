@@ -102,3 +102,32 @@ Output:
 '''
 
 
+
+
+'''
+A special function which uses yield instead of return
+Generator doesn't terminates the fn, although return does
+To call values from Generator we need to use a loop without range fn esle it will burst
+Pracitcal usage: When we are dealing with thousand and millions of objects which aviod memory exhaustion. 
+
+a loop has iter fn by-default however in Genarator, we call iter by ourselves using another loop in the end.
+
+'''
+    
+def perfsq(n):
+    
+    i = 1
+    while i <= n:
+        yield i**2
+        i += 1
+
+
+gen = perfsq(100)
+
+for j in gen:
+    if j >= 100 and j <=400:
+        print(j)
+    else:
+        continue
+
+
