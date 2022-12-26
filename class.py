@@ -23,3 +23,11 @@ print(jonagold.color)
 print(jonagold.flavor)
 print(jonagold)
 
+
+
+OutPut:
+-------
+red
+sweet
+The Apple is red in color and sweet 
+
