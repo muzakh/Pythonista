@@ -34,3 +34,41 @@ gen_exp = gen_exp_fn()
 
 for var in gen_exp:
     print(var)
+    
+    
+    
+
+
+def my_generator(n):
+    count = 0
+    while count < n:
+        yield count
+        count += 1
+
+
+for x in my_generator(3):
+    print(x)
+
+
+print("\n" * 2)
+
+squares_generator_fn = (x*x for x in range(5))
+
+for y in squares_generator_fn:
+    print(y)
+
+
+Output:
+-------
+0
+1
+2
+
+
+0
+1
+4
+9
+16
+
+
